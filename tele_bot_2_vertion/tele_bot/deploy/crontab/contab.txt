@@ -1,0 +1,1 @@
+0   *   *   *   *   TG_CONF=production PYTHONPATH=/home/tele/tele_bot/ python3 /home/tele/tele_bot/echo/notify.py
