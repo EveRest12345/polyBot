@@ -20,7 +20,7 @@ def main():
 
     def vk_s():
 
-        login, password = '89500961053', 'idivles3420'
+        login, password = '***', '***'
 
         vk_session = vk_api.VkApi(login, password)
 
