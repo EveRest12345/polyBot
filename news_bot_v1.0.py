@@ -9,7 +9,7 @@ def main():
     url = 'https://vk.com/newsbot1?w=wall-181851081_'
 
     def vk_s():
-        login, password = '89500961053', 'idivles3420'
+        login, password = '*******', '*****'
         vk_session = vk_api.VkApi(login, password)
         try:
             vk_session.auth(token_only=True)
