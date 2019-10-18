@@ -1,0 +1,12 @@
+image: python:3.7
+
+pipelines:
+  default:
+    - step:
+        name: Build and run tests
+        caches:
+          - pip
+        script:
+          - pip install -r pip-requirements.txt
+          - pip install -r pip-requirements-dev.txt
+          - make test
